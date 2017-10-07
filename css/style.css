@@ -1,0 +1,13 @@
+body{background: black;
+color: #FFFFFF;
+font-size: 16px;
+padding:50px 50px 50px 50px; }
+h1{
+	text-decoration: underline;
+}
+img {
+	border: 5px solid #ffffff;
+}
+.strong{
+	font-weight: bold;
+}
