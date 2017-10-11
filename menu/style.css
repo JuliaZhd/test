@@ -5,6 +5,7 @@
 }
 
 body{
+	heigth: 100vh;
 	background: #3B3F45;
 	color: #FFFF;
 	font-size: 20px;
@@ -30,15 +31,24 @@ h2 {
 	width: 60%;
 	margin: 0 auto;
 	background: #3B3F45;
+	//opacity: 0;
 }
 ul {
 	list-style: none;
 	padding: 0;
 }
-lable{
+label{
 	cursor: pointer;
 	display: block;
 }
+input[type=submit] {
+	display:block;
+	background: #4A4F56;
+	text-align: center;
+	color: #EB7E7F;
+	width: 60%; //margin: 0 auto;
+}
+
 
 ul li {
 	padding: 10px 20px;
@@ -48,8 +58,9 @@ ul li {
 }
 ul li:nth-child(odd) {
 	background-color: #88839E;
-	border-top: 2px solid #88839E;
-	border-bottom: 2px solid #88839E
+	//border-top: 2px solid #88839E;
+	//border-bottom: 2px solid #88839E;
+	border-color: #88839E;
 }
 ul li:hover {
 	background-color:#625E77;
